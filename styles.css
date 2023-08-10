@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Roboto:wght@300&display=swap');
+
+
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    height: 50px;
+    /* align-items: flex-start; */
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.name-location {
+    padding: 0px;
+    font-size: 12px;
+    line-height: 2px;
+    margin-top: 5px;
+}
+
+img {
+    width: 600px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption {
+    padding: 10px;
+}
